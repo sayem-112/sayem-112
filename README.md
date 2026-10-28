@@ -44,22 +44,6 @@ I'm currently improving my engineering fundamentals, building practical projects
 <tr>
 <td width="50%" valign="top">
 
-### Rift
-
-<img src="https://img.shields.io/badge/Status%3A%20In%20progress-fab387?style=flat-square" alt="Status: In progress" /> <img src="https://img.shields.io/badge/Go%20%7C%20PostgreSQL%20%7C%20React%20%7C%20S3-89b4fa?style=flat-square&logo=go&logoColor=1e1e2e" alt="Go | PostgreSQL | React | S3" />
-
-**A self-hosted reader that synchronizes PDFs and EPUBs across devices, including offline changes.**
-
-- Designed per-user, versioned change feeds with compaction and tombstones for offline-safe synchronization.
-- Streamed real-time updates through PostgreSQL and Server-Sent Events.
-- Implemented AES-GCM envelope encryption and resumable, client-encrypted multipart uploads to S3.
-- Built a PostgreSQL job queue for horizontally scalable Go workers.
-
-<a href="https://github.com/sayem-112/Rift"><img src="https://img.shields.io/badge/View%20Code-45475a?style=for-the-badge&logo=github&logoColor=cdd6f4" alt="View Code" /></a>
-
-</td>
-<td width="50%" valign="top">
-
 ### SortWise
 
 <img src="https://img.shields.io/badge/Release%3A%20v0.6.0-a6e3a1?style=flat-square" alt="Release: v0.6.0" /> <img src="https://img.shields.io/badge/Go%20%7C%20SQLite%20%7C%20React%20%7C%20LLMs-89b4fa?style=flat-square&logo=go&logoColor=1e1e2e" alt="Go | SQLite | React | LLMs" />
@@ -73,8 +57,6 @@ I'm currently improving my engineering fundamentals, building practical projects
 <a href="https://github.com/sayem-112/SortWise"><img src="https://img.shields.io/badge/View%20Code-45475a?style=for-the-badge&logo=github&logoColor=cdd6f4" alt="View Code" /></a> <a href="https://github.com/sayem-112/SortWise/releases"><img src="https://img.shields.io/badge/Download-a6e3a1?style=for-the-badge&logo=github&logoColor=1e1e2e" alt="Download" /></a>
 
 </td>
-</tr>
-<tr>
 <td width="50%" valign="top">
 
 ### Polaris
@@ -89,6 +71,24 @@ I'm currently improving my engineering fundamentals, building practical projects
 - Built retry-safe, batched LLM generation with atomic MongoDB claims and deduplication.
 
 <a href="https://github.com/DesignNovae/Polaris"><img src="https://img.shields.io/badge/View%20Code-45475a?style=for-the-badge&logo=github&logoColor=cdd6f4" alt="View Code" /></a> <a href="https://polaris-ai-academy.vercel.app"><img src="https://img.shields.io/badge/Live%20Demo-89b4fa?style=for-the-badge&logo=vercel&logoColor=1e1e2e" alt="Live Demo" /></a>
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+### Rift
+
+<img src="https://img.shields.io/badge/Status%3A%20In%20progress-fab387?style=flat-square" alt="Status: In progress" /> <img src="https://img.shields.io/badge/Go%20%7C%20PostgreSQL%20%7C%20React%20%7C%20S3-89b4fa?style=flat-square&logo=go&logoColor=1e1e2e" alt="Go | PostgreSQL | React | S3" />
+
+**A self-hosted reader that synchronizes PDFs and EPUBs across devices, including offline changes.**
+
+- Designed per-user, versioned change feeds with compaction and tombstones for offline-safe synchronization.
+- Streamed real-time updates through PostgreSQL and Server-Sent Events.
+- Implemented AES-GCM envelope encryption and resumable, client-encrypted multipart uploads to S3.
+- Built a PostgreSQL job queue for horizontally scalable Go workers.
+
+<a href="https://github.com/sayem-112/Rift"><img src="https://img.shields.io/badge/View%20Code-45475a?style=for-the-badge&logo=github&logoColor=cdd6f4" alt="View Code" /></a>
 
 </td>
 <td width="50%" valign="top">
